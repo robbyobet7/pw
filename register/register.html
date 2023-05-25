@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="../register/registerS.css">
+</head>
+
+<body>
+    <div class="header">
+        <a href="../home.html"><ion-icon name="arrow-back-outline"></ion-icon></a>
+    </div>
+<div class="container">
+    <h1 class="form-title">Registration</h1>
+    <form action="#">
+        <div class="main-user-info">
+            <div class="user-input-box">
+                <label for="fullName">Full Name</label>
+                <input type="text"
+                        id="fullName"
+                        name="fullName"
+                        placeholder="Enter Full Name"/>
+            </div>
+            <div class="user-input-box">
+                <label for="username">Full Username</label>
+                <input type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Enter Username"/>
+            </div>
+            <div class="user-input-box">
+                <label for="email">Email</label>
+                <input type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter Email"/>
+            </div>
+            <div class="user-input-box">
+                <label for="username">Phone Number</label>
+                <input type="text"
+                        id="phoneNumber"
+                        name="phoneNumber"
+                        placeholder="Enter Phone Number"/>
+            </div>
+            <div class="user-input-box">
+                <label for="passwprd">Password</label>
+                <input type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Enter Password"/>
+            </div>
+            <div class="user-input-box">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password"
+                        id="confirmPassword"
+                        name="confirmPassword"
+                        placeholder="Confirm Password"/>
+            </div>
+        </div>
+        <div class="terms-conditions-box">
+            <span class="terms-title">Terms And Conditiion</span>
+            <div class="category">
+                <input type="radio" name="Term Condition" id="terms">
+                <label for="terms">By Creating an account, I agree with Nusantara Esports <span>Privacy Policy</span> and <span>Terms of Use</span>.</label>
+                <br>
+                <input type="radio" name="Update and Promotions" id="update">
+                <label for="update">I would like to receive updates and promotions from Nusantara Esports.</label>
+            </div>
+        </div>
+        <div class="form-submit-btn">
+            <button><a href="../home.html">Register</a></button>
+        </div>
+    </form>
+</div>    
+
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+</body>
+
+</html>
